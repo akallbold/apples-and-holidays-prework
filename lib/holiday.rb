@@ -81,10 +81,10 @@ output= ""
       output << "#{holiday}:"
       counter=0
       while counter < supplies.size-1
-        output << supplies[counter] + ","
+        output << "#{supplies[counter]},"
         counter +=1
       end
-      output << supplies[supplies.size] + "\n"
+      output << "#{supplies[supplies.size]}\n"
     end
   end
 end
