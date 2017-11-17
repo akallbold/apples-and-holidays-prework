@@ -77,7 +77,7 @@ def all_supplies_in_holidays(holiday_hash)
 output= ""
   holiday_hash.each do |season, holiday|
     cap_season=season.capitalize
-    output << "#{cap_season}:" + "\n"
+    output << puts "#{cap_season}:"
     holiday.each do |holiday,supplies|
       output << "\t"
       output << "#{holiday}:"
