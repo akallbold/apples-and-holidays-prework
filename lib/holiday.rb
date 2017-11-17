@@ -78,7 +78,7 @@ output= ""
   holiday_hash.each do |season, holiday|
     output << "#{season} : \n \t"
     holiday.each do |holiday,supplies|
-      output << holiday + ": "
+      output << "#{holiday}:"
       counter=0
       while counter < supplies.size-1
         output << supplies[counter] + ","
