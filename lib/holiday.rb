@@ -74,17 +74,17 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
-output=""
+output= ""
   holiday_hash.each do |season, holiday|
     output << season + ":" + \n + \t
     holiday.each do |holiday,supplies|
       output << holiday + ": "
       counter=0
-      while counter< supplies.size-1
+      while counter < supplies.size-1
         output << supplies[counter] + ","
         counter +=1
       end
-      output << supplies[supplies.sizex]
+      output << supplies[supplies.size] + \n
     end
   end
 end
