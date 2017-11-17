@@ -84,7 +84,7 @@ output= ""
         output << supplies[counter] + ","
         counter +=1
       end
-      output << supplies[supplies.size] + \n
+      output << supplies[supplies.size] + "\n"
     end
   end
 end
