@@ -78,7 +78,7 @@ output= ""
   holiday_hash.each do |season, holiday|
     cap_season=season.capitalize
     output << "#{cap_season}:"
-    otuput << "\n"
+    output << "\n"
     holiday.each do |holiday,supplies|
       output << "\t"
       output << "#{holiday}:"
