@@ -87,7 +87,7 @@ output= ""
       output << "#{supplies[supplies.size]}\n"
     end
   end
-  output
+  puts output
 end
 
 
